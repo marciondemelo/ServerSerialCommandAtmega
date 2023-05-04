@@ -26,6 +26,7 @@ namespace WindowsFormsApp1
             cbPort.Items.AddRange(portlists);
 
             Connect();
+            configLcd("PageA");
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
@@ -145,22 +146,24 @@ namespace WindowsFormsApp1
                     }
                     else if (pages.Any(x => x == key))
                     {
-                        String dadoLinhaLcd = String.Concat(ReadFileConfiguration.Page(key), "#");
-
-                        byte[] bytes = System.Text.Encoding.ASCII.GetBytes(dadoLinhaLcd);
-
-                        serialPort1.Write(bytes, 0, bytes.Length);
-                        Debug.WriteLine(dadoLinhaLcd);
-                        Thread.Sleep(500);
+                        configLcd(key);
                     }
                 }
 
                 dado = "";
             }
-
-
-
         }
+        public void configLcd(String Page)
+        {
+            String dadoLinhaLcd = String.Concat(ReadFileConfiguration.Page(Page), "#");
+
+            byte[] bytes = System.Text.Encoding.ASCII.GetBytes(dadoLinhaLcd);
+
+            serialPort1.Write(bytes, 0, bytes.Length);
+            Debug.WriteLine(dadoLinhaLcd);
+            Thread.Sleep(500);
+        }
+
         List<String> pages = new List<String>() { "pageA", "pageB", "pageC", "pageD" };
         List<String> buttons = new List<string>() { "A1", "A2", "A3", "A4", "A5", "A6",
                                                     "B1", "B2", "B3", "B4", "B5", "B6",
