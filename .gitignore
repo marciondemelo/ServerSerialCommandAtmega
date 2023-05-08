@@ -1,0 +1,41 @@
+# Ignora arquivos de compilação do Visual Studio
+*.obj
+*.pdb
+*.exe
+*.dll
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.ncb
+*.log
+*.lib
+*.sbr
+*.sdf
+*.aps
+*.clw
+*.dll.intermediate.manifest
+*.exe.intermediate.manifest
+*.ipch
+*.exp
+
+# Ignora arquivos gerados pelo msbuild
+bin/
+obj/
+
+# Ignora arquivos de configuração do Visual Studio
+*.user
+*.suo
+*.vs/
+*.vshost.exe
+*.vshost.exe.config
+*.config.user
+*.csproj.user
+*.sln.docstates
+
+# Ignora arquivos temporários
+[Tt]humbs.db
+*.DS_Store
+*.tmp
+*~$*

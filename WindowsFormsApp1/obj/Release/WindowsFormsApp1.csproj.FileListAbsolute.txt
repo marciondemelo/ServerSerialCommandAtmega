@@ -9,3 +9,12 @@ E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\o
 E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
 E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.Asio.dll
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.Core.dll
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.dll
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.Midi.dll
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.Wasapi.dll
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.WinForms.dll
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.WinMM.dll
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NAudio.xml
+E:\Projetos\Arduino\C#-Arduino\ProjectcSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CopyComplete
